@@ -3,8 +3,14 @@ uuid = "fadbf084-5835-4bcd-9457-830dc2bffdcd"
 authors = ["Raye Kimmerer <kimmerer@mit.edu>"]
 version = "1.0.0-DEV"
 
+[deps]
+FHist = "68837c9b-b678-4cd5-9925-8a54edc8f695"
+FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+
 [compat]
 julia = "1.6"
+FHist = "0.10"
+FLoops = "0.2"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
