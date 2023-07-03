@@ -1,7 +1,7 @@
 name = "EasyHists"
 uuid = "fadbf084-5835-4bcd-9457-830dc2bffdcd"
 authors = ["Raye Kimmerer <kimmerer@mit.edu>"]
-version = "1.0.0-DEV"
+version = "0.1"
 
 [deps]
 FHist = "68837c9b-b678-4cd5-9925-8a54edc8f695"
