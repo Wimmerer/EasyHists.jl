@@ -1,5 +1,5 @@
 module EasyHists
-using FLoops, FHist
+using FLoops, FHist, LinearAlgebra
 
 export easyhist1D, easyhist2D, easyhist3D
 
