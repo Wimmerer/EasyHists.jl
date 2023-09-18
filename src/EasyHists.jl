@@ -2,6 +2,10 @@ module EasyHists
 using FLoops, FHist, LinearAlgebra
 
 export easyhist1D, easyhist2D, easyhist3D
+const SequentialEx = FLoops.SequentialEx
+const ThreadedEx = FLoops.ThreadedEx
+const DistributedEx = FLoops.DistributedEx
+export SequentialEx, ThreadedEx, DistributedEx
 
 function merge(h::Hist1D, x)
     push!(h, x)
